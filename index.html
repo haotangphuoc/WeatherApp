@@ -1,3 +1,58 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Weather Forcast</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://kit.fontawesome.com/723c51cb84.js" crossorigin="anonymous"></script>
+    <script type="module" src="./script.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+  </head>
+  <body>
+      
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+    <div id="content">
+        <div id="current-info">
+            <div id="search-section">
+                <input type="text" class="form-control" name="city" id="search-bar" placeholder="Enter a city">
+                <button id="search-button"><i id="search-icon" class="fa-solid fa-magnifying-glass"></i></button>
+            </div>
+            <div id="weather-info">
+                <br>
+                <h1 id="location-display">Halifax, Canada</h3>
+                <div id="current-temp">60° C</div>
+                <br>
+                <div id="current-weather">Sunny</div>
+                <div id="current-wind">Wind: 70km/h</div>
+                <div id="current-humid">Humidity: 60%</div>
+            </div>
+        </div>
+
+        <div id="future">
+            
+        </div>
+
+        <div id="map">
+
+        </div>
+    </div>
+    <script type="module" src="./map.js"></script>
+  </body>
+</html>
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -5,38 +60,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Weather Forcast</title>
-    <link rel="stylesheet" href="./style.css">
-    <script src="https://kit.fontawesome.com/723c51cb84.js" crossorigin="anonymous"></script>
-    <script src="./script.js"></script>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+    
 </head>
 <body>
-    <div id="content">
-        <div id="current-info">
-            <div id="search">
-                <input type="text" name="city" class="search-bar" placeholder="Enter a city">
-                <button id="search-button"><i class="fa-solid fa-magnifying-glass"></i></button>
-            </div>
-            <div id="weather-info">
-                <h1>Halifax, Canada</h3>
-                <div id="temp">60° C</div>
-                <br>
-                <div id="weather-icon"></div>
-                <div id="weather">Sunny</div>
-                <div id="wind">Wind: 70km/h</div>
-                <div id="humid">Humidity: 60%</div>
-            </div>
-        </div>
-
-        <div id="map">
-
-        </div>
-
-        <div id="future-info">
-
-        </div>
-    </div>
+    
 </body>
 </html>
+
+https://tile.openweathermap.org/map/clouds_new/1/44/10.png?appid=794c4d3ff89210cbb46e105c1d0e3efd

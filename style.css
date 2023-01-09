@@ -64,14 +64,6 @@ div#future {
     overflow-y: hidden;
 }
 
-div#map {
-    height: 304px;
-    width: 350px;
-    background-color: #87A6B9;
-    border-radius: 15px;
-    margin-top: 0.5em;
-}
-
 div.future-info {
     height: 100%;
     width: 25%;
